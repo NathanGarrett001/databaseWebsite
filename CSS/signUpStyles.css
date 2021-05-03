@@ -1,0 +1,68 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    height: 657px;
+    background: #ccab78;
+}
+header{
+    background: url('https://media.istockphoto.com/photos/uhaul-van-travelling-on-the-interstate-picture-id1068489070?k=6&m=1068489070&s=612x612&w=0&h=zabe2GUosoI7Dhp1_vSe9wrePEoOxwZ47PNyfaEh6T4=');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 85% 0 85% 0 / 45%;
+}
+.signUpOverlay{
+    width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+.signUpHeader{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 90px;
+    font-size: 32px;
+}
+.signUpBox{
+    padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #76a2a3;
+	padding-bottom: 20px;
+	border: groove #5c7e80;
+	border-radius: 10px;
+	margin:0 auto;
+	margin-top: 20px;
+	text-align: center;
+	width:400px;
+	box-shadow: 0 0 3px #68a4a6;
+}
+.buttonStyle {
+	box-shadow: 0px 0px 0px 2px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:25px;
+	border:3px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 22px;
+	text-decoration:none;
+	text-shadow:-2px 2px 0px #2b665e;
+}
+.buttonStyle:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.buttonStyle:active {
+	position:relative;
+	top:1px;
+}
